@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    /*background: #fafafa;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+.container {
+    padding: 20px;
+}
+
+.console-unit {
+    position: absolute;
+    bottom: 0px;
+    left: 2%;
+    width: 96%;
+    max-height: 200px;
+    overflow: hidden;
+
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 5px;
+    padding-bottom: 50px;
+}
+
+.console-unit input {
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+    border: 0px;
+    width: 400px;
+}
+
+.console-unit .secondary-text {
+    font-size: 12px;
+    color: #333;
+}
+
+.console-unit.closed {
+    max-height: 50px;
+}
+
+.console-unit .console-toggler {
+    font-size: 13px;
+    float: right;
+}
